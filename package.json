@@ -1,6 +1,6 @@
 {
   "name": "@multiformats/base-x",
-  "version": "3.0.8",
+  "version": "0.0.0-dev",
   "description": "Fast base encoding / decoding of any given alphabet",
   "keywords": [
     "base-x",
