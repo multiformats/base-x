@@ -1,7 +1,9 @@
 # base-x
 
-[![NPM Package](https://img.shields.io/npm/v/base-x.svg?style=flat-square)](https://www.npmjs.org/package/base-x)
-[![Build Status](https://img.shields.io/travis/cryptocoinjs/base-x.svg?branch=master&style=flat-square)](https://travis-ci.org/cryptocoinjs/base-x)
+(Hopefully temporary) fork of [base-x](https://github.com/cryptocoinjs/@multiformats/base-x) library which removed node [Buffer](https://nodejs.org/api/buffer.html) dependecy.
+
+[![NPM Package](https://img.shields.io/npm/v/@multiformats/base-x.svg?style=flat-square)](https://www.npmjs.org/package/@multiformats/base-x)
+[![Build Status](https://img.shields.io/travis/cryptocoinjs/@multiformats/base-x.svg?branch=master&style=flat-square)](https://travis-ci.org/cryptocoinjs/@multiformats/base-x)
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
@@ -16,7 +18,7 @@ Base58
 
 ``` javascript
 var BASE58 = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
-var bs58 = require('base-x')(BASE58)
+var bs58 = require('@multiformats/base-x')(BASE58)
 
 var decoded = bs58.decode('5Kd3NBUAdUnhyzenEwVLy9pBKxSwXvE9FMPyR4UKZvpe6E3AgLr')
 
